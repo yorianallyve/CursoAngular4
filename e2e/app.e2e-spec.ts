@@ -1,10 +1,10 @@
-import { AppPage } from './app.po';
+import { NggalleryPage } from './app.po';
 
 describe('nggallery App', () => {
-  let page: AppPage;
+  let page: NggalleryPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new NggalleryPage();
   });
 
   it('should display welcome message', () => {
